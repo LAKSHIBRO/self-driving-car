@@ -18,7 +18,7 @@ function getIntersection(A,B,C,D){
             }
         }
     }
-
+    
     return null;
 }
 
@@ -46,4 +46,14 @@ function getRGBA(value){
     const B=value>0?0:255;
     return "rgba("+R+","+G+","+B+","+alpha+")";
 }
-                
+
+function getRandomColor(){
+    const hue=290+Math.random()*260;
+    return "hsl("+hue+", 100%, 60%)";
+}
+
+
+
+
+
+
